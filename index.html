@@ -1217,7 +1217,6 @@
                 <!-- TEXTE : NOM COMPLET -->
                 <div class="brand-text">
                     <span class="name">RAZAFINIRINA <span>Samson</span></span>
-                    <span class="title">Développeur Full-Stack</span>
                 </div>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
@@ -1269,9 +1268,9 @@
                         <a href="#contact" class="btn btn-ultra-outline">
                             <i class="bi bi-send me-2"></i>Me contacter
                         </a>
-                        <a href="#" class="btn btn-ultra-outline" id="downloadCV">
+                        <!-- <a href="#" class="btn btn-ultra-outline" id="downloadCV">
                             <i class="bi bi-download me-2"></i>Télécharger CV
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-lg-6 text-center text-lg-end" data-aos="fade-left" data-aos-duration="1200"
@@ -1440,7 +1439,6 @@
                 <button class="filter-btn active" data-filter="all">Tous</button>
                 <button class="filter-btn" data-filter="mobile">Mobile</button>
                 <button class="filter-btn" data-filter="web">Web</button>
-                <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
             </div>
 
             <div class="row g-4" id="projectsGrid">
@@ -1650,14 +1648,6 @@
                                     Responsable d'Informatique</div>
                                 <h5 style="font-weight:700; margin:4px 0 2px;">Association Jacaranda — Fianarantsoa</h5>
                                 <p style="color:var(--text-secondary); font-size:0.9rem; margin:4px 0;">Prof d'informatique de Bureautique — bureautique plus</p>
-                                <!-- <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:8px;">
-                                    <span
-                                        style="background:rgba(168,85,247,0.03); padding:2px 14px; border-radius:40px; font-size:0.7rem; color:var(--text-secondary); border:1px solid var(--glass-border);">Windows</span>
-                                    <span
-                                        style="background:rgba(168,85,247,0.03); padding:2px 14px; border-radius:40px; font-size:0.7rem; color:var(--text-secondary); border:1px solid var(--glass-border);">Linux</span>
-                                    <span
-                                        style="background:rgba(168,85,247,0.03); padding:2px 14px; border-radius:40px; font-size:0.7rem; color:var(--text-secondary); border:1px solid var(--glass-border);">Support</span>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -1665,39 +1655,6 @@
             </div>
         </div>
     </section>
-
-    <!-- <section id="certifications" style="background: rgba(5, 5, 14, 0.2); z-index: 1; position: relative;">
-        <div class="container">
-            <div class="text-center" data-aos="fade-up">
-                <span class="tag-ultra">Certifications</span>
-                <h2 class="title-ultra">Mes <span class="gradient">certifications</span></h2>
-                <p class="subtitle-ultra">Des formations pour rester à la pointe</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="0">
-                    <div class="glass-ultra p-4 text-center" style="border-radius:32px;">
-                        <i class="bi bi-award fs-1" style="color:var(--gradient-1);"></i>
-                        <h5 class="mt-3" style="font-weight:700;">Développement Web</h5>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">OpenClassrooms — 2024</p>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="glass-ultra p-4 text-center" style="border-radius:32px;">
-                        <i class="bi bi-database fs-1" style="color:var(--gradient-2);"></i>
-                        <h5 class="mt-3" style="font-weight:700;">SQL Avancé</h5>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">DataCamp — 2024</p>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="glass-ultra p-4 text-center" style="border-radius:32px;">
-                        <i class="bi bi-phone fs-1" style="color:var(--gradient-3);"></i>
-                        <h5 class="mt-3" style="font-weight:700;">React Native</h5>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">Udemy — 2025</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
 
     <section id="contact"
@@ -1744,22 +1701,22 @@
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <input type="text" class="form-control form-control-ultra" placeholder="Votre nom"
-                                        id="nameInput" required
+                                        id="nameInput" name="name" required
                                         style="background:var(--bg-card) !important; border:1px solid var(--glass-border) !important; color:var(--text-primary) !important; border-radius:60px !important; padding:16px 26px !important;">
                                 </div>
                                 <div class="col-md-6">
                                     <input type="email" class="form-control form-control-ultra" placeholder="Email"
-                                        id="emailInput" required
+                                        id="emailInput" name="email" required
                                         style="background:var(--bg-card) !important; border:1px solid var(--glass-border) !important; color:var(--text-primary) !important; border-radius:60px !important; padding:16px 26px !important;">
                                 </div>
                                 <div class="col-12">
                                     <input type="text" class="form-control form-control-ultra" placeholder="Sujet"
-                                        id="subjectInput"
+                                        id="subjectInput" name="subject"
                                         style="background:var(--bg-card) !important; border:1px solid var(--glass-border) !important; color:var(--text-primary) !important; border-radius:60px !important; padding:16px 26px !important;">
                                 </div>
                                 <div class="col-12">
                                     <textarea class="form-control form-control-ultra" rows="4"
-                                        placeholder="Votre message..." id="messageInput" required
+                                        placeholder="Votre message..." id="messageInput" name="message" required
                                         style="background:var(--bg-card) !important; border:1px solid var(--glass-border) !important; color:var(--text-primary) !important; border-radius:28px !important; padding:16px 26px !important;"></textarea>
                                 </div>
                                 <div class="col-12">
@@ -1829,7 +1786,7 @@
         </div>
     </footer>
 
->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
@@ -2063,35 +2020,56 @@
             });
 
 
-            const form = document.getElementById('contactForm');
-            const feedback = document.getElementById('formFeedback');
+            // ============================================================
+            // GESTION DU FORMULAIRE FORMSPREE AVEC AJAX (remplace l'ancienne simulation)
+            // ============================================================
+            const contactForm = document.getElementById('contactForm');
             const sendBtn = document.getElementById('sendBtn');
+            const formFeedback = document.getElementById('formFeedback');
 
-            form.addEventListener('submit', function (e) {
-                e.preventDefault();
-                const name = document.getElementById('nameInput').value.trim();
-                const email = document.getElementById('emailInput').value.trim();
-                const subject = document.getElementById('subjectInput').value.trim();
-                const message = document.getElementById('messageInput').value.trim();
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
 
-                if (!name || !email || !message) {
-                    feedback.innerHTML =
-                        `<div style="border-radius:60px; background:rgba(244,114,182,0.02); border:1px solid rgba(244,114,182,0.03); color:#c8b4ff; padding:12px 20px;">Veuillez remplir tous les champs obligatoires.</div>`;
-                    return;
-                }
+                    const formData = new FormData(contactForm);
+                    const data = Object.fromEntries(formData);
 
-                sendBtn.disabled = true;
-                sendBtn.innerHTML = `<span class="spinner-border spinner-border-sm me-2"></span> Envoi...`;
+                    // Validation
+                    if (!data.name || !data.email || !data.message) {
+                        formFeedback.innerHTML = `<div style="border-radius:60px; background:rgba(244,114,182,0.02); border:1px solid rgba(244,114,182,0.03); color:#c8b4ff; padding:12px 20px;">❌ Veuillez remplir tous les champs obligatoires.</div>`;
+                        return;
+                    }
 
-                setTimeout(() => {
-                    feedback.innerHTML =
-                        `<div style="border-radius:60px; background:rgba(34,197,94,0.02); border:1px solid rgba(34,197,94,0.03); color:#86efac; padding:12px 20px;">✅ Message envoyé avec succès ! Je vous répondrai rapidement.</div>`;
-                    sendBtn.disabled = false;
-                    sendBtn.innerHTML = `<i class="bi bi-send me-2"></i>Envoyer le message`;
-                    form.reset();
-                    setTimeout(() => { feedback.innerHTML = ''; }, 6000);
-                }, 1600);
-            });
+                    // Affichage du chargement
+                    formFeedback.innerHTML = `<div style="border-radius:60px; background:rgba(168,85,247,0.02); border:1px solid rgba(168,85,247,0.03); color:#b8a0ff; padding:12px 20px;">⏳ Envoi en cours...</div>`;
+                    sendBtn.disabled = true;
+                    sendBtn.innerHTML = `<span class="spinner-border spinner-border-sm me-2"></span> Envoi...`;
+
+                    // Envoi à Formspree
+                    fetch('https://formspree.io/f/mjgnzbrl', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            formFeedback.innerHTML = `<div style="border-radius:60px; background:rgba(34,197,94,0.02); border:1px solid rgba(34,197,94,0.03); color:#86efac; padding:12px 20px;">✅ Votre message a été envoyé avec succès !</div>`;
+                            contactForm.reset();
+                        } else {
+                            formFeedback.innerHTML = `<div style="border-radius:60px; background:rgba(244,114,182,0.02); border:1px solid rgba(244,114,182,0.03); color:#c8b4ff; padding:12px 20px;">❌ Une erreur est survenue. Veuillez réessayer.</div>`;
+                        }
+                    })
+                    .catch(error => {
+                        formFeedback.innerHTML = `<div style="border-radius:60px; background:rgba(244,114,182,0.02); border:1px solid rgba(244,114,182,0.03); color:#c8b4ff; padding:12px 20px;">❌ Erreur de connexion. Veuillez réessayer.</div>`;
+                    })
+                    .finally(() => {
+                        sendBtn.disabled = false;
+                        sendBtn.innerHTML = `<i class="bi bi-send me-2"></i>Envoyer le message`;
+                    });
+                });
+            }
 
 
             window.addEventListener('scroll', function () {
@@ -2139,7 +2117,7 @@
 
             console.log('🚀 Portfolio Ultime chargé avec succès !');
             console.log('✅ Logo 2 : Monogramme + Nom complet intégré !');
-            console.log('✅ Toutes les fonctionnalités sont activées !');
+            console.log('✅ Formulaire Formspree avec AJAX intégré !');
         })();
     </script>
 
